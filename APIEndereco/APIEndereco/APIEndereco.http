@@ -1,0 +1,6 @@
+@APIEndereco_HostAddress = http://localhost:5062
+
+GET {{APIEndereco_HostAddress}}/endereco/
+Accept: application/json
+
+###

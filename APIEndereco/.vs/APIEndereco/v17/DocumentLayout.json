@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0415A64B-1E20-4AC2-85F5-B434833B1D8A}|APIEndereco\\APIEndereco.csproj|c:\\users\\fiore\\source\\repos\\apiendereco\\apiendereco\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0415A64B-1E20-4AC2-85F5-B434833B1D8A}|APIEndereco\\APIEndereco.csproj|solutionrelative:apiendereco\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0415A64B-1E20-4AC2-85F5-B434833B1D8A}|APIEndereco\\APIEndereco.csproj|c:\\users\\fiore\\source\\repos\\apiendereco\\apiendereco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0415A64B-1E20-4AC2-85F5-B434833B1D8A}|APIEndereco\\APIEndereco.csproj|solutionrelative:apiendereco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\Endereco.cs",
+              "RelativeDocumentMoniker": "APIEndereco\\Endereco.cs",
+              "ToolTip": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\Endereco.cs",
+              "RelativeToolTip": "APIEndereco\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:57:44.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\Program.cs",
+              "RelativeDocumentMoniker": "APIEndereco\\Program.cs",
+              "ToolTip": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\Program.cs",
+              "RelativeToolTip": "APIEndereco\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:57:44.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
