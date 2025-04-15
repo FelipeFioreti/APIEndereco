@@ -4,7 +4,7 @@ Aprendizado de uma API para cadastro e consulta de Endereços em um banco de dad
 
 ### 🛠️ **O que foi utilizado:**
 - **Linguagens:** C#
-- **Banco de Dados:** SQL
+- **Banco de Dados:** SQL Server
 - **Framework:** .NET
 
 ### Estrutura da tabela Endereços no banco de dados:
