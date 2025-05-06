@@ -14,21 +14,22 @@ namespace APIEndereco.Controllers
         }
 
         [HttpGet(Name = "GetEndereco")]
-        public IEnumerable<Endereco> Get()
+        public IActionResult Get()
         {
 
             var database = new DatabaseEndereco();
             var listaEnderecos = database.GetData();
 
-            return listaEnderecos;
+            return Ok(listaEnderecos);
         }
 
         [HttpPost(Name = "PostEndereco")]
-        public void Post(Endereco endereco)
+        public IActionResult Post(Endereco endereco)
         {
             var database = new DatabaseEndereco();
 
             database.PostData(endereco);
+            return Ok("Endereco cadastrado com sucesso");
         }
     }
 }

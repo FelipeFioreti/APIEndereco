@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qNXLLuIMhFM=",
+  "dgSpecHash": "gjveE9YVmgA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\APIEndereco.csproj",
+  "projectFilePath": "D:\\Felipe\\APIEndereco\\APIEndereco\\APIEndereco\\APIEndereco.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fiore\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\fiore\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

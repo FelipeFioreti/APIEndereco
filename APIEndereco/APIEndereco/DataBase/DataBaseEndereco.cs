@@ -41,11 +41,14 @@ namespace APIEndereco.DataBase
                                 {
                                     var endereco = new Endereco
                                     {
-                                        Id = (int)reader["Id"],
+                                        Id = Guid.Parse(reader["Id"].ToString()!),
+                                        Cep = reader["Cep"].ToString(),
                                         Logradouro = reader["Logradouro"].ToString(),
+                                        Complemento = reader["Complemento"].ToString(),
+                                        Numero = reader["Numero"].ToString(),
                                         Bairro = reader["Bairro"].ToString(),
                                         Cidade = reader["Cidade"].ToString(),
-                                        Estado = reader["Estado"].ToString()
+                                        UF = reader["UF"].ToString()
                                     };
                                     enderecos.Add(endereco);
                                 }
@@ -71,12 +74,16 @@ namespace APIEndereco.DataBase
             {
                 using (SqlConnection con = new SqlConnection(DatabaseConnection()))
                 {
-                    using (SqlCommand cmd = new SqlCommand("INSERT INTO Endereco (Logradouro, Bairro, Cidade, Estado) VALUES (@Logradouro, @Bairro, @Cidade, @Estado)", con))
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO Endereco (Id, Cep, Logradouro, Complemento, Numero, Bairro, Cidade, UF) VALUES (@Id, @Cep, @Logradouro, @Complemento, @Numero, @Bairro, @Cidade, @UF)", con))
                     {
+                        cmd.Parameters.AddWithValue("@Id", new Guid());
+                        cmd.Parameters.AddWithValue("@Cep", endereco.Cep);
                         cmd.Parameters.AddWithValue("@Logradouro", endereco.Logradouro);
+                        cmd.Parameters.AddWithValue("@Complemento", endereco.Complemento);
+                        cmd.Parameters.AddWithValue("@Numero", endereco.Numero);
                         cmd.Parameters.AddWithValue("@Bairro", endereco.Bairro);
                         cmd.Parameters.AddWithValue("@Cidade", endereco.Cidade);
-                        cmd.Parameters.AddWithValue("@Estado", endereco.Estado);
+                        cmd.Parameters.AddWithValue("@UF", endereco.UF);
                         cmd.Connection.Open();
                         cmd.ExecuteNonQuery();
                     }

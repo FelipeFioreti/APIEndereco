@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\APIEndereco.csproj": {}
+    "D:\\Felipe\\APIEndereco\\APIEndereco\\APIEndereco\\APIEndereco.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\APIEndereco.csproj": {
+    "D:\\Felipe\\APIEndereco\\APIEndereco\\APIEndereco\\APIEndereco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\APIEndereco.csproj",
+        "projectUniqueName": "D:\\Felipe\\APIEndereco\\APIEndereco\\APIEndereco\\APIEndereco.csproj",
         "projectName": "APIEndereco",
-        "projectPath": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\APIEndereco.csproj",
+        "projectPath": "D:\\Felipe\\APIEndereco\\APIEndereco\\APIEndereco\\APIEndereco.csproj",
         "packagesPath": "C:\\Users\\fiore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fiore\\source\\repos\\APIEndereco\\APIEndereco\\obj\\",
+        "outputPath": "D:\\Felipe\\APIEndereco\\APIEndereco\\APIEndereco\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
